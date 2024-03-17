@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="11-20-play1.css" />
+  </head>
+  <body>
+   <div class="grid-container">
+      <!--grid-item on the left--images-->
+      <div class="grid-left">
+        <img
+          id="drag1"
+          src="ball-17.png"
+          alt="bee-8.img"
+          draggable="true"
+          ondragstart="drag(event)"
+          width="200px"
+          height="120"
+        />
+
+        <img
+          id="drag2"
+          src="ball-19.png"
+          alt="bee-6.img"
+          draggable="true"
+          ondragstart="drag(event)"
+          width="200px"
+          height="auto"
+        />
+
+        <img
+          id="drag3"
+          src="ball-16.png"
+          alt="bee-9.img"
+          draggable="true"
+          ondragstart="drag(event)"
+          width="200px"
+          height="auto"
+        />
+
+        <img
+          id="drag4"
+          src="ball-18.png"
+          alt="bee-10.img"
+          draggable="true"
+          ondragstart="drag(event)"
+          width="200px"
+          height="120"
+        />
+
+        <img
+          id="drag5"
+          src="ball-20.png"
+          alt="bee-7.img"
+          draggable="true"
+          ondragstart="drag(event)"
+          width="200px"
+          height="120"
+        />
+      </div>
+
+      <!--grid-items on th right--boxss -->
+      <div class="grid-right">
+        <div
+          id="div1"
+          ondrop="drop(event)"
+          ondragover="allowDrop(event)"
+          data-drop="drag3"
+        >
+          <h3 id="sixteen">16</h3>
+          <audio id="audio-sixteen" src="sound11-20/sixteen.mp3"></audio>
+        </div>
+
+        <div
+          id="div2"
+          ondrop="drop(event)"
+          ondragover="allowDrop(event)"
+          data-drop="drag2"
+        >
+          <h3 id="nineteen">19</h3>
+          <audio id="audio-nineteen" src="sound11-20/nineteen.mp3"></audio>
+        </div>
+
+        <div
+          id="div3"
+          ondrop="drop(event)"
+          ondragover="allowDrop(event)"
+          data-drop="drag1"
+        >
+          <h3 id="seventeen">17</h3>
+          <audio id="audio-seventeen" src="sound11-20/seventeen.mp3"></audio>
+        </div>
+
+        <div
+          id="div4"
+          ondrop="drop(event)"
+          ondragover="allowDrop(event)"
+          data-drop="drag4"
+        >
+          <h3 id="eighteen">18</h3>
+          <audio id="audio-eighteen" src="sound11-20/eighteen.mp3"></audio>
+        </div>
+
+        <div
+          id="div5"
+          ondrop="drop(event)"
+          ondragover="allowDrop(event)"
+          data-drop="drag5"
+        >
+          <h3 id="twenty">20</h3>
+          <audio id="audio-twenty" src="sound11-20/twenty.mp3"></audio>
+        </div>
+      </div>
+      </div>
+
+      <div>
+        <a href="number11-20.html"> <button class="bnt-numEx-1">🔙</button></a>
+      </div>
+    </div>
+
+    <script src="11-20-play2.js"></script>
+  </body>
+</html>

@@ -1,0 +1,90 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: RGB(0, 119, 145);
+}
+
+.home {
+  width: 80px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 500px 1fr;
+  background-color: RGB(0, 119, 145);
+  padding: 10px;
+  margin-top: 10px;
+  height: 750px;
+}
+
+.grid-item {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#num-eleven,
+#num-twelve,
+#num-thirteen,
+#num-fourteen,
+#num-fifteen,
+#num-sixteen,
+#num-seventeen,
+#num-eighteen,
+#num-nineteen,
+#num-twenty {
+  position: absolute;
+  padding-left: 160px;
+  padding-top: 130px;
+  font-weight: bold;
+  font-size: 120px;
+  border-radius: 25px;
+  color: #c0c0c0;
+}
+
+.right {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.left {
+  background-color: RGB(0, 119, 145);
+}
+
+.grid-item-1 {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px;
+  height: 300px;
+  width: 600px;
+  border-radius: 25px;
+  border: solid 5px;
+  border-radius: 25px;
+  margin-top: 200px;
+}
+
+.grid-item-1 > img {
+  width: 100px;
+  padding: 20px;
+}
+
+.grid-item-2 {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px;
+  height: 300px;
+  width: 600px;
+  border: solid 5px;
+  border-radius: 25px;
+  margin-top: 200px;
+}
+
+.grid-item-2 > img {
+  width: 100px;
+  padding: 20px;
+}
+
+.number-word {
+  position: relative;
+  top: 350px;
+}
